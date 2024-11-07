@@ -385,6 +385,16 @@ section img {
     padding: 180 80;
 }
 
+.flex-section {
+
+    padding: 60 80;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .contact-image {
 
     width: 55%;
@@ -732,5 +742,36 @@ display: none;
     align-items: center;
 }
 
+
+}
+
+/*Contact MOBILE --------------------------------------------------------------------------------------------------*/
+
+
+.main-flex-contact {
+    
+    padding: 64 32 100 32;
+}
+
+.contact-image {
+
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.submit-button {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
 
 }
