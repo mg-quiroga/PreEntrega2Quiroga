@@ -108,6 +108,32 @@ span {
     background-color: #BA80D2;
 }
 
+.secondary-button-navbar {
+
+    padding: 16 64;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #FFFFFF;
+    border: 2px solid;
+    border-color: #FFFFFF;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+.secondary-button-navbar:hover {
+
+    padding: 16 64;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #D8A6ED;
+    border: 2px solid;
+    border-color: #D8A6ED;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
 .secondary-button {
 
     padding: 16 64;
@@ -157,11 +183,11 @@ span {
 
 .links-flex {
 
-    width: 25%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -742,9 +768,6 @@ display: none;
     align-items: center;
 }
 
-
-}
-
 /*Contact MOBILE --------------------------------------------------------------------------------------------------*/
 
 
@@ -773,5 +796,7 @@ display: none;
     width: 100%;
     display: flex;
     justify-content: center;
+
+}
 
 }
